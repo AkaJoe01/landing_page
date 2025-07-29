@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.822)),url(/images/Hopper.webp);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    color: white; 
+
+}
+div{
+    padding: 20px;
+    /* justify-content: center; */
+    /* justify-content: center; */
+    /* margin-top: 200px; */
+    /* color: white; */
+    /* align-items: center; */
+}
+h1{ 
+    width: 30%;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    /* font-weight: 700; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* color: aliceblue; */
+    /* margin-top: 200px; */
+    /* align-items: center; */
+}
+
+p{ 
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    color: aliceblue;
+    letter-spacing: 8px;
+    /* margin-top: 200px; */
+}
+span:hover, button:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 30px;
+    padding: 10px 17px;
+    border-radius: 100%;
+    margin-left: 48%;
+    margin-top: 20px;
+    color: white;
+}
